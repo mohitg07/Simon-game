@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="right">
+    <h2>Simon Game Rule</h2>
+    <h3>1-player game</h3>
+
+    <ol type="1">
+      <li>Press any key to start the game. Simon will give the first signal. Repeat the signal by pressing the same color lens.</li>
+      <li>Simon will duplicate the first signal and add one more signal to it. Repeat these two signals by pressing the same color lenses, in order.</li>
+      <li>Simon will duplicate these first two signals and add another signal</li>
+      <li>Continue playing as long as you can repeat each sequence of signals correctly.</li>
+      <li>If you fail to repeat a sequence exactly, Simon responds with a different sound. This means you've lost and the sequence of signals ends.</li>
+    </ol>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
